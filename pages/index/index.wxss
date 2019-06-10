@@ -1,21 +1,14 @@
-/**index.wxss**/
-.userinfo {
+@import '../../static/wxss/layer.wxss';
+
+.navigate_item {
+  width: 24%;
+  height: 48%;
+  border: 1rpx solid gray;
+  float: left;
+  text-align:center;
+  align-items:center;
+  justify-content: center;
+  margin: 0 1rpx 0 1rpx;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
-
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
+  z-index: 100;
 }
